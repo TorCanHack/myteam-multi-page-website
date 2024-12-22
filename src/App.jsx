@@ -64,8 +64,8 @@ function App() {
         </Routes>
 
         <footer className='flex flex-col justify-center items-center bg-dark_green py-12 md:px-12 lg:px-40'>
-          <div className='md:flex md:flex-row md:justify-between md:w-full md:mt-6 md:mb-5 '>
-            <div className='md:h-102 md:w-107  lg:w-40'>
+          <div className='flex flex-col items-center md:flex md:flex-row md:justify-between md:w-full md:mt-6 md:mb-5 '>
+            <div className='md:h-102 md:w-107 lg:w-40'>
               <img src={logo} alt='logo' className='w-24 h-6 mb-4 lg:w-40 lg:h-10'/>
 
               <div className='flex flex-row justify-around items-center text-white w-107 mb-4 md:translate-y-full md:w-full md:justify-between lg:text-lg'>
@@ -74,17 +74,16 @@ function App() {
               </div>
 
             </div>
-
             
 
-            <p className='text-gray-300 text-center text-15 mb-6 md:text-right lg:-translate-x-97'>987 Hillcrest Lane <br className='my-1'/> Irvine, CA <br className='mb-1'/> California 92714 <br className='mb-1'/> Call Us : 949-833-7432</p>
+            <p className='text-gray-300 text-center text-15 mb-6 md:text-right lg:-translate-x-97 lg:translate-y-4'>987 Hillcrest Lane <br className='my-1'/> Irvine, CA <br className='mb-1'/> California 92714 <br className='mb-1'/> Call Us : 949-833-7432</p>
 
 
           </div>
          
-         <div className='md:flex md:flex-row md:justify-between md:w-full lg:flex-col lg:ml-auto  lg:w-255 lg:h-102 lg:-mt-36'>
+         <div className=' flex flex-col items-center md:flex md:flex-row md:justify-between md:w-full lg:flex-col lg:ml-auto  lg:w-255 lg:h-102 lg:-mt-32'>
  
-            <div className='flex flex-row justify-around items-center w-104 mb-3 lg:translate-x-36'>
+            <div className='flex flex-row justify-around items-center w-104 mb-3 lg:translate-x-20'>
               <img src={facebook_icon} alt='facebook icon'/>
               <img src={pinterest_icon} alt='pinterest icon'/>
               <img src={twitter_icon} alt='linkedin icon'/>
